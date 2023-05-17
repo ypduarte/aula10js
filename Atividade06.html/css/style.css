@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.center{
+    max-width: 1100px;
+    padding: 0 2%;
+    display: flex;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 40px;
+}
+
+.logo{
+    margin-top: 8px;
+    color:white;
+    cursor: pointer;
+}
+
+.menu-container{
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.menu-container a.active-menu{
+    background-color: rgb(150, 103, 194);
+}
+
+.menu-container a {
+    color:white;
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 0 10px ;
+    line-height: 23px;
+    padding: 8px 10px;
+    transition: 0.8s;
+    
+
+}
+
+.menu-container a:hover{
+    color: rgb(65, 17, 110);
+}
+
+section.main{
+    position: relative;
+     min-height: 800px;
+     background-image: url('../imagens/Dance.png');
+     background-size: cover;
+     background-position: center;
+}
+
+section.dicas{
+    background-color: rgb(2, 1, 3);
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+section.dicas h3{
+    text-transform: uppercase;
+}
+
+.dicas-single{
+    text-align: center;
+}
+
+.dicas-container{
+    width: 60%;
+    justify-content: space-around;
+}
+
+.dicas-single{
+    width: 60%;
+    margin: 0 10px;
+}
+
+.dicas-single img{
+    width: 60%;
+}
+
+.dicas-single h3{
+    text-align: center;
+    background-color: rgb(148, 100, 36);
+    border: 1px solid white;
+    padding: 8px;
+
+}
+
+.dicas-single p{
+    background-color: white;
+    padding: 8px;
+    color: black;
+}
+
+.dicas-single img{
+    width: 60%;
+    
+}
+footer{
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+    color:white;
+}
+
